@@ -1,35 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
 </head>
 
 <body>
-    <ul class="nav_ul">
-        <li><a class="active nav_ul_a" href="index.html">Home</a></li>
-        <li><a class="nav_ul_a" href="cv.html">CV</a></li>
-        <li><a class="nav_ul_a" href="gallery.html">Gallery</a></li>
-        <li><a class="nav_ul_a" href="contact_us.html">Contact Us</a></li>
-    </ul>
-    <center>
-        <main>
-            <br>
-            <img src="images/LAU.png" width="250px" height="100px" />
-            <h1>Welcome to the website of Alyn Nazal</h1>
-            <br><br>
-            <h2>These are the technologies I used to make all what you see happen:</h2>
-            <br><br>
-            <div class="image-container">
-                <img src="images/html.png" alt="html" width="250px" height="250px">
-                <img src="images/css.png" alt="css" width="250px" height="250px">
-                <img src="images/webhost.png" alt="webhost" width="250px" height="250px">
-            </div>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="backend/signin.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
 
-        </main>
-    </center>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
 </body>
 
 </html>
