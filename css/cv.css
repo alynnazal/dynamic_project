@@ -6,6 +6,16 @@ body {
     overflow-x: scroll;
 }
 
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+    z-index: 1000;
+}
+
 p {
     text-align: left;
     font-size: 20;
