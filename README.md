@@ -3,5 +3,5 @@ Web Development Course Dynamic Project
 
 ## Test Credentials
 
-username: alynnazal
+username: alynnazal \
 password: test
